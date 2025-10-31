@@ -43,7 +43,7 @@
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
   "liveServer.settings.port": 5504,
-  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code'",
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true
