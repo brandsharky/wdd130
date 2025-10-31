@@ -1,14 +1,14 @@
 {
   // Auto Save when focus changes (allows formatOnSave to work)
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
 
   // Editor settings
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
-  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
- 
+
   "editor.quickSuggestions": {
     "comments": "off",
     "strings": "off",
@@ -18,7 +18,7 @@
   "editor.suggestOnTriggerCharacters": false,
   "editor.hover.enabled": false,
   "editor.inlineSuggest.enabled": false,
-  
+
   // Git settings for beginners - simplify source control
   "git.enableSmartCommit": true, // automatically staged
   "git.confirmSync": false,
@@ -26,7 +26,7 @@
   // "git.postCommitCommand": "sync",
   "scm.defaultViewMode": "list",
   "scm.repositories.visible": 0,
-  
+
   // Explorer settings - show only folders view
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.expand": false,
@@ -38,9 +38,13 @@
   "timeline.showView": false,
   "explorer.autoOpenDroppedFile": false,
   "workbench.tree.indent": 25,
-  
+
   // Live and Live/Five Server settings
   "fiveServer.port": 5501,
   "fiveServer.injectBody": false,
-  "liveServer.settings.port": 5504
+  "liveServer.settings.port": 5504,
+  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
 }
