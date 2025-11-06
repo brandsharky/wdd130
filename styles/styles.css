@@ -10,7 +10,7 @@ header {
 }
 nav {
   color: white;
-  background: darkblue;
+  background-color: darkblue;
   padding: 10px 15px;
 }
 nav a {
@@ -52,7 +52,7 @@ aside {
   border: 1px solid black;
   border-radius: 5px;
   padding: 10px;
-  background: rgb(209, 209, 209);
+  background-color: rgb(209, 209, 209);
   color: black;
   text-align: center
 }
