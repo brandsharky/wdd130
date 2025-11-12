@@ -1,6 +1,6 @@
 :root {
   --blue: #1E3A5f;                               /* Primary: Deep River Blue */
-  --orange: #E27D60;                             /* Secondary: Warm Ember Orange */
+  /*--orange: #E27D60;                             /* Secondary: Warm Ember Orange */
   --yellow: #F2C57C;                             /* Accent: Golden Sand */
   --gray: #2E2E2E;                               /* Background: Charcoal Gray */
   --off-white: #F9F7F3;                          /* Text: Off-White */
@@ -42,7 +42,7 @@ nav, p, section, article {
   width: 100%;
   height: auto;
 }
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -52,14 +52,12 @@ h1 {
   background-color: var(--yellow);
   color: var(--blue);
 }
-
-article {
+.hero article {
   position: absolute;
   top: 320px;
   background-color: var(--blue);
   opacity: 0.7;
 }
-
 .hero article img {
   float: right;
   width: 125px;
