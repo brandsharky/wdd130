@@ -1,0 +1,85 @@
+:root {
+  --blue: #1E3A5f;                               /* Primary: Deep River Blue */
+  --orange: #E27D60;                             /* Secondary: Warm Ember Orange */
+  --yellow: #F2C57C;                             /* Accent: Golden Sand */
+  --gray: #2E2E2E;                               /* Background: Charcoal Gray */
+  --off-white: #F9F7F3;                          /* Text: Off-White */
+  --heading-font: "Times New Roman", "Georgia", serif;
+  --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--body-font);
+  background-color: var(--gray);
+  color: var(--off-white);
+}
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+h1, h2 {
+  font-family: var(--heading-font);
+  text-align: center;
+  color: var(--blue);
+  background-color: var(--yellow);
+}
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.hero {
+  position: relative;
+}
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--yellow);
+  color: var(--blue);
+}
+
+article {
+  position: absolute;
+  top: 320px;
+  background-color: var(--blue);
+  opacity: 0.7;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 16px;
+  box-shadow: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.socialmedia a {
+  text-decoration: none;
+}
