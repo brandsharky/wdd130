@@ -1,6 +1,6 @@
 :root {
   --blue: #1E3A5f;                               /* Primary: Deep River Blue */
-  /*--orange: #E27D60;                             /* Secondary: Warm Ember Orange */
+  --orange: #E27D60;                             /* Secondary: Warm Ember Orange */
   --yellow: #F2C57C;                             /* Accent: Golden Sand */
   --gray: #2E2E2E;                               /* Background: Charcoal Gray */
   --off-white: #F9F7F3;                          /* Text: Off-White */
@@ -62,7 +62,7 @@ nav, p, section, article {
   float: right;
   width: 125px;
   margin: 16px;
-  box-shadow: rgba(0, 0, 0, 0.7);
+  border: 2px solid var(--orange);
 }
 
 
