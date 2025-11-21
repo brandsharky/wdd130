@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Form</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+
+  <h1>😎HTML and CSS Quiz</h1>
+  <form>
+    <div class="form-item">
+      <label for="q1"><span class="numbers">1.</span> What does the acronym CSS stand for?</label>
+      <input type="text" name="q1" id="q1">
+    </div>
+
+    <div class="form-item">
+      <label for="q2"><span class="numbers">2.</span> What is the difference between the span tag and the div tag?</label>
+      <textarea id="q2" name="q2" rows="4" placeholder="">answer here</textarea>
+    </div>
+
+    <div class="form-item">
+      <label for="q3"><span class="numbers">3.</span> Which of the following is correct CSS?</label>
+      <select id="q3" name="q3">
+        <option value="" selected disabled>Choose One...</option>
+        <option value="one">transition: background 0.5s ease</option>
+        <option value="two">padding-left: 2rem;</option>
+        <option value="three">font-family: "Roboto";</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="q4"><span class="numbers">4.</span> What is the most current version of HTML?</label>
+      <input type="number" name="q4" id="q4">
+    </div>
+
+    <button type="submit">Submit Quiz</button>
+  </form>
+
+  <footer>
+    Brandon Arroyo | Last Modified: <span id="last-modified"></span>
+  </footer>
+
+  <script>
+    const modified = new Date(document.lastModified);
+    const options = { year: "numeric", month: "long", day: "numeric"};
+    document.getElementById("last-modified").textContent = modified.toLocaleDateString("en-US", options);
+  </script>
+</body>
+</html>

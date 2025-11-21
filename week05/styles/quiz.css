@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  color: black;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  width: 50%;
+
+  margin: 1rem auto;
+  padding: 1rem;
+
+  text-align: center;
+  font-size: 2.5rem;
+
+  background: navy;
+  color: white;
+  border-radius: 0.5rem;
+}
+form {
+  width: 50%;
+
+  margin: 1rem auto;
+  padding: 1rem;
+  padding-bottom: 0;
+
+  text-align: left;
+
+  background: #ccc;
+  border-radius: 0.5rem;
+}
+label {
+  font-family: Roboto;
+}
+input, textarea, select {
+  width: 100%;
+
+  padding: 0.5rem;
+  margin: 0.5rem auto;
+
+  border: none;
+  border-radius: 0.5rem;
+}
+button {
+  width: 100%;
+
+  padding: 0.75rem;
+  margin: 1rem auto;
+
+  font-size: 1.25rem;
+
+  background: darkblue;
+  color: white;
+  border-radius: 0.5rem;
+
+  transition: background 0.5s ease;
+}
+button:hover {
+  background: darkgreen;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+
+  padding: 0.25rem;
+  margin: 0 auto;
+
+  text-align: center;
+  font-size: 1rem;
+
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: gray;
+  color: white;
+}
+
+
+
+
+
+#last-modified {
+  color: yellow;
+}
+.form-item {
+  margin-bottom: 1rem;
+}
+.numbers {
+  color: navy;
+  font-weight: bold;
+}
