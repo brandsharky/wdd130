@@ -61,7 +61,7 @@ header nav ul {
 }
 header nav a {
   text-decoration: none;
-  color: var(--gray);
+  color: white;
   background-color: var(--orange);
 
   padding: 0.5rem 1rem;
@@ -142,7 +142,7 @@ header nav a:hover {
 }
 .adventure-gallery {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 16px;
 }
 figure {
@@ -150,11 +150,102 @@ figure {
   padding: 8px;
 }
 figure img {
-  width: 110px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
 }
 figcaption {
   margin-top: 8px;
 }
+
+
+/*===== CONTACT INFO =====*/
+.contact-info {
+
+}
+.contact-info h1 {
+  position: static;
+
+  padding: 0.5rem;
+}
+.contact-info p {
+  text-align: center;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+/*===== MAP + FORM =====*/
+.map-form-container {
+  display: flex;
+  gap: 1rem;
+}
+
+/* MAP */
+.map-form-container iframe {
+  flex: 1;
+
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* FORM */
+.form-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 0.5rem;
+
+  background-color: var(--yellow);
+  color: var(--gray);
+  border-radius: 0.5rem;
+}
+.form-grid label {
+  text-align: center;
+  font-weight: 600;
+}
+.form-grid input, .form-grid select, .form-grid textarea {
+  padding: 0.5rem;
+
+  font-size: 1rem;
+
+  border: none;
+  border-radius: 0.5rem;
+}
+.form-grid .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.form-grid button {
+  grid-column: 1 / -1;
+
+  padding: 0.5rem;
+
+  font-size: 1rem;
+
+  border: none;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 0.5rem;
+
+  transition: background 0.5s ease;
+}
+.form-grid button:hover {
+  background-color: green;
+}
+
+
+
+
+
 
 /*===== FOOTER =====*/
 footer {
