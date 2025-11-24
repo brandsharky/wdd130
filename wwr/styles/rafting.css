@@ -230,10 +230,11 @@ figcaption {
   padding: 0.5rem;
 
   font-size: 1rem;
+  font-weight: bold;
 
   border: none;
   background-color: var(--orange);
-  color: white;
+  color: var(--gray);
   border-radius: 0.5rem;
 
   transition: background 0.5s ease;
