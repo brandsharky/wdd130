@@ -361,7 +361,7 @@ h3 {
 }
 .hero article {
   position: absolute;
-  top: 310px;
+  top: 290px;
 
   background-color: var(--blue);
   opacity: 0.7;
