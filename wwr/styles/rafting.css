@@ -28,6 +28,14 @@ h1, h2 {
   color: var(--blue);
   background-color: var(--yellow);
 }
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+main {
+  background: var(--blue);
+}
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
@@ -188,7 +196,7 @@ header nav a:hover {
   background: var(--yellow);
   color: var(--gray);
 }
-.newsletter h3 {
+h3 {
   display: inline-block;
 
   padding: 0.25rem 0.5rem;
@@ -241,27 +249,89 @@ header nav a:hover {
 
 
 /*========== TRIPS ==========*/
+.cta {
+  padding: 2rem;
 
+  text-align: center;
 
+  background: var(--yellow);
+}
+.cta p {
+  color: var(--blue);
+}
+.cta-button {
+  display: inline-block;
 
+  text-decoration: none;
 
+  padding: 0.75rem;
+  margin-top: 0.5rem;
 
+  border-radius: 0.5rem;
+  color: white;
+  background: var(--blue);
 
+  transition: background 0.5s ease;
+}
+.cta-button:hover {
+  background: var(--gray);
+}
 
+.trip-descriptions h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+.grid-trips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+.trip {
+  background-color: var(--yellow);
+  color: var(--gray);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.trip img {
+  display: block;
+  width: 225px;
+  height: 200px;
+  object-fit: cover;
 
+  margin: 0 auto;
+  margin-bottom: 16px;
+  padding: 0;
 
+  border-radius: 0.5rem;
+}
+.trip h3 {
+  text-align: center;
+}
 
+.trip-table table {
+  overflow: hidden;
+  border-collapse: collapse;
+  overflow: hidden;
 
+  margin: 0.5rem 0 0 0;
 
+  background: var(--yellow);
+  color: var(--gray);
+}
+.trip-table th, .trip-table td {
+  padding: 0.75rem 1rem;
 
+  text-align: left;
 
+  border: 1px solid var(--blue);
+}
+.trip-table th {
+  font-weight: bold;
 
-
-
-
-
-
-
+  background-color: var(--orange);
+  color: var(--gray);
+}
 
 
 /*===== HERO =====*/
